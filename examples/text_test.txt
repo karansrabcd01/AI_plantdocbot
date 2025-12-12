@@ -1,0 +1,151 @@
+===========================================
+PLANTDOCBOT - TEXT DISEASE DIAGNOSIS TEST
+Sample Text Inputs for Testing
+===========================================
+
+TOMATO DISEASES:
+----------------
+1. My tomato plant has dark brown spots on the leaves with yellow halos around them
+
+2. The tomato leaves are curling and turning yellow, and I see tiny webs underneath
+
+3. There are circular brown spots with concentric rings on my tomato leaves
+
+4. My tomato plant leaves have a white powdery coating on them
+
+5. Tomato leaves have small dark spots with yellow borders spreading rapidly
+
+6. The tomato plant has mosaic patterns and mottled discoloration on leaves
+
+
+APPLE DISEASES:
+---------------
+7. My apple tree has dark scab-like lesions on the leaves and fruit
+
+8. The apple leaves have orange-rust colored spots that look like cedar rust
+
+9. Apple fruits are rotting with black circular spots spreading across them
+
+10. Apple tree leaves have dark brown to black spots with irregular edges
+
+
+GRAPE DISEASES:
+---------------
+11. My grape leaves have brown spots and are drying out from the edges
+
+12. The grapes have black rot with dark circular lesions on the fruit
+
+13. Grape leaves show black measles with dark streaks and spots
+
+14. The grape vines have powdery white growth on leaves and fruit
+
+
+CORN (MAIZE) DISEASES:
+----------------------
+15. Corn leaves have gray spots with rectangular lesions between the veins
+
+16. My corn plants have orange-brown pustules on both sides of the leaves
+
+17. Corn leaves show long tan lesions with dark borders running parallel to veins
+
+18. The corn plant has circular to oval spots with gray centers
+
+
+POTATO DISEASES:
+----------------
+19. Potato leaves have dark brown spots with a target-like pattern
+
+20. The potato plant leaves are turning black and dying rapidly
+
+21. Potato leaves show brown lesions with yellow halos spreading quickly
+
+22. Dark concentric rings appear on potato leaves with brown centers
+
+
+PEPPER DISEASES:
+----------------
+23. Bell pepper leaves have dark spots with raised centers
+
+24. Pepper plant leaves show bacterial leaf spot with brown lesions
+
+25. The pepper fruits have dark sunken spots with white centers
+
+
+PEACH DISEASES:
+---------------
+26. Peach tree leaves have small purple spots with yellow halos
+
+27. The peach fruits have brown spots with bacterial ooze
+
+28. Peach leaves are curling with dark angular lesions
+
+
+STRAWBERRY DISEASES:
+--------------------
+29. Strawberry leaves have purple to brown spots with white centers
+
+30. The strawberry plant leaves are scorched and drying at the edges
+
+31. Strawberry leaves show irregular brown blotches spreading outward
+
+
+SQUASH DISEASES:
+----------------
+32. Squash leaves have white powdery coating on upper surfaces
+
+33. The squash plant shows powdery mildew with white fungal growth
+
+
+ORANGE/CITRUS DISEASES:
+-----------------------
+34. Orange tree leaves are yellowing with green veins remaining
+
+35. Citrus leaves show blotchy mottling and premature fruit drop
+
+36. The orange tree has huanglongbing symptoms with asymmetric leaf yellowing
+
+
+HEALTHY PLANTS:
+---------------
+37. My tomato plant looks green and healthy with no spots or discoloration
+
+38. The apple tree leaves are vibrant green with no signs of disease
+
+39. Potato plants are growing well with lush green foliage
+
+40. Corn stalks are strong and leaves are uniformly green
+
+41. Grape vines are healthy with no visible lesions or spots
+
+42. Bell pepper plants look vigorous with dark green leaves
+
+43. Peach tree is thriving with no leaf spots or fruit damage
+
+44. Strawberry plants are healthy with bright green leaves
+
+45. Blueberry bushes are healthy with no disease symptoms
+
+46. Raspberry plants show no signs of disease or pest damage
+
+47. Soybean plants are healthy with uniform green color
+
+48. Cherry trees have healthy foliage with no powdery mildew
+
+
+MIXED SYMPTOMS:
+---------------
+49. Plant leaves have yellowing, wilting, and brown spots appearing together
+
+50. Leaves show both fungal growth and bacterial spots simultaneously
+
+===========================================
+USAGE INSTRUCTIONS:
+===========================================
+1. Copy any text sample from above
+2. Paste it into the "Text Disease Diagnosis" input field
+3. Click the "Diagnose" button
+4. Review the prediction, confidence score, and recommendation
+
+Note: The model is trained on specific plant diseases.
+Results may vary based on symptom description accuracy.
+===========================================
