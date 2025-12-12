@@ -48,8 +48,8 @@ PlantDocBot is a comprehensive plant health management system that combines comp
 
 ```bash
 # Clone the repository
-git clone https://github.com/yourusername/plantdocbot.git
-cd plantdocbot
+git clone https://github.com/karansrabcd01/AI_plantdocbot.git
+cd AI_plantdocbot
 
 # Backend setup
 cd Backend
@@ -320,6 +320,8 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 ---
 
 ## 📞 Contact
+
+**GitHub Repository:** [https://github.com/karansrabcd01/AI_plantdocbot](https://github.com/karansrabcd01/AI_plantdocbot)
 
 For questions or support, please open an issue on GitHub.
 
