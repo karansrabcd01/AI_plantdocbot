@@ -10,7 +10,7 @@
 
 **An intelligent web application for plant disease detection using deep learning and AI-powered plant care assistance.**
 
-[Features](#-features) • [Demo](#-demo) • [Quick Start](#-quick-start) • [Documentation](#-documentation) • [Contributing](#-contributing)
+[Features](#-features) • [Quick Start](#-quick-start) • [Documentation](#-documentation)
 
 </div>
 
@@ -18,71 +18,21 @@
 
 ## 📖 Overview
 
-PlantDocBot is a comprehensive plant health management system that combines computer vision, natural language processing, and AI to help users identify and treat plant diseases. The application provides three main functionalities:
-
-1. **🖼️ Image-based Disease Detection** - Upload plant images for instant disease identification
-2. **💬 Text-based Diagnosis** - Describe symptoms to get disease predictions
-3. **🤖 AI Plant Care Assistant** - Interactive chatbot for plant care advice
-
----
-
-## ✨ Features
+PlantDocBot is a comprehensive plant health management system that combines computer vision, natural language processing, and AI to help users identify and treat plant diseases.
 
 ### Core Capabilities
+
+1. **🖼️ Image-based Disease Detection** - Upload plant images for instant disease identification
+2. **💬 Text-based Diagnosis** - Describe symptoms to get disease predictions  
+3. **🤖 AI Plant Care Assistant** - Interactive chatbot for plant care advice
+
+### Key Features
 
 - **38 Plant Disease Classes** - Comprehensive coverage of common plant diseases
 - **High Accuracy** - CNN model with ~95% accuracy, BERT model with ~92% accuracy
 - **Real-time Analysis** - Instant predictions and recommendations
 - **Smart Chatbot** - Knowledge-based responses with optional Gemini AI integration
 - **Modern UI/UX** - Responsive design with glassmorphism and smooth animations
-
-### Supported Plants
-
-Apple, Blueberry, Cherry, Corn, Grape, Orange, Peach, Pepper, Potato, Raspberry, Soybean, Squash, Strawberry, Tomato
-
-<details>
-<summary>View all 38 disease classes</summary>
-
-1. Apple - Scab
-2. Apple - Black Rot
-3. Apple - Cedar Apple Rust
-4. Apple - Healthy
-5. Blueberry - Healthy
-6. Cherry - Powdery Mildew
-7. Cherry - Healthy
-8. Corn - Cercospora Leaf Spot
-9. Corn - Common Rust
-10. Corn - Northern Leaf Blight
-11. Corn - Healthy
-12. Grape - Black Rot
-13. Grape - Esca (Black Measles)
-14. Grape - Leaf Blight
-15. Grape - Healthy
-16. Orange - Huanglongbing
-17. Peach - Bacterial Spot
-18. Peach - Healthy
-19. Pepper - Bacterial Spot
-20. Pepper - Healthy
-21. Potato - Early Blight
-22. Potato - Late Blight
-23. Potato - Healthy
-24. Raspberry - Healthy
-25. Soybean - Healthy
-26. Squash - Powdery Mildew
-27. Strawberry - Leaf Scorch
-28. Strawberry - Healthy
-29. Tomato - Bacterial Spot
-30. Tomato - Early Blight
-31. Tomato - Late Blight
-32. Tomato - Leaf Mold
-33. Tomato - Septoria Leaf Spot
-34. Tomato - Spider Mites
-35. Tomato - Target Spot
-36. Tomato - Mosaic Virus
-37. Tomato - Yellow Leaf Curl Virus
-38. Tomato - Healthy
-
-</details>
 
 ---
 
@@ -127,7 +77,7 @@ cd plantdoc-frontend
 npm run dev
 ```
 
-**Access the app:** Open `http://localhost:5173` in your browser
+**Access:** Open `http://localhost:5173` in your browser
 
 ---
 
@@ -139,8 +89,7 @@ plantdocbot/
 │   ├── models/                 # ML models (download separately)
 │   ├── main.py                 # Main API application
 │   ├── requirements.txt        # Python dependencies
-│   ├── .env.example            # Environment variables template
-│   └── .gitignore
+│   └── .env.example            # Environment template
 │
 ├── plantdoc-frontend/          # React frontend
 │   ├── src/
@@ -154,16 +103,14 @@ plantdocbot/
 │   ├── ImageClassification.ipynb
 │   └── TextClassifier.ipynb
 │
-├── examples/                   # Sample test images
-├── screenshots/                # Application screenshots
-├── docs/                       # Additional documentation
+├── docs/                       # Documentation
 │   ├── API_DOCUMENTATION.md
 │   ├── SETUP_GUIDE.md
 │   └── DEPLOYMENT.md
 │
+├── examples/                   # Sample test images
 ├── README.md                   # This file
-├── LICENSE                     # MIT License
-└── .gitignore
+└── LICENSE                     # MIT License
 ```
 
 ---
@@ -175,27 +122,16 @@ plantdocbot/
 - PyTorch 2.9.0
 - Transformers (Hugging Face)
 - Pillow 12.0.0
-- Uvicorn 0.38.0
 
 **Frontend:**
 - React 19.1.1
 - Vite 7.1.7
 - Axios 1.13.1
-- Modern CSS with animations
 
 **AI/ML:**
 - Custom CNN (Image Classification)
 - BERT (Text Classification)
 - Google Gemini AI (Optional Chatbot)
-
----
-
-## 📚 Documentation
-
-- **[Setup Guide](docs/SETUP_GUIDE.md)** - Detailed installation instructions
-- **[API Documentation](docs/API_DOCUMENTATION.md)** - Complete API reference
-- **[Deployment Guide](docs/DEPLOYMENT.md)** - Deploy to production
-- **[Contributing Guide](docs/CONTRIBUTING.md)** - Contribution guidelines
 
 ---
 
@@ -229,16 +165,17 @@ HUGGINGFACE_TOKEN=your_hf_token_here
 
 ## 📦 Model Files
 
-Due to file size limitations, model files are not included in the repository.
+Due to file size limitations (~103 MB), model files are not included in the repository.
 
 ### Download Models
 
-**Option 1:** Download pre-trained models from [Google Drive Link]
+**Option 1:** Download pre-trained models from [Google Drive Link - Add your link here]
 
 **Option 2:** Train your own models using the notebooks in `notebooks/`
 
 ### Model Placement
 
+After downloading, place files in:
 ```
 Backend/models/
 ├── ImageClassification_model_weights.pth  (~103 MB)
@@ -285,21 +222,23 @@ See [API Documentation](docs/API_DOCUMENTATION.md) for detailed examples.
 
 ---
 
+## 📚 Documentation
+
+- **[Setup Guide](docs/SETUP_GUIDE.md)** - Detailed installation instructions
+- **[API Documentation](docs/API_DOCUMENTATION.md)** - Complete API reference
+- **[Deployment Guide](docs/DEPLOYMENT.md)** - Deploy to production
+
+---
+
 ## 🚢 Deployment
 
-### Quick Deploy
-
-**Backend (Render):**
+### Backend (Render)
 ```bash
-# Push to GitHub
-git push origin main
-
-# Deploy on Render
 # Build Command: pip install -r Backend/requirements.txt
 # Start Command: cd Backend && uvicorn main:app --host 0.0.0.0 --port $PORT
 ```
 
-**Frontend (Netlify):**
+### Frontend (Netlify)
 ```bash
 cd plantdoc-frontend
 npm run build
@@ -310,17 +249,57 @@ See [Deployment Guide](docs/DEPLOYMENT.md) for detailed instructions.
 
 ---
 
-## 🤝 Contributing
+## 🌱 Supported Plant Diseases
 
-Contributions are welcome! Please follow these steps:
+The system can detect **38 plant disease classes** including:
 
-1. Fork the repository
-2. Create a feature branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your changes (`git commit -m 'Add AmazingFeature'`)
-4. Push to the branch (`git push origin feature/AmazingFeature`)
-5. Open a Pull Request
+**Plants:** Apple, Blueberry, Cherry, Corn, Grape, Orange, Peach, Pepper, Potato, Raspberry, Soybean, Squash, Strawberry, Tomato
 
-See [CONTRIBUTING.md](docs/CONTRIBUTING.md) for detailed guidelines.
+**Common Diseases:** Scab, Black Rot, Powdery Mildew, Early Blight, Late Blight, Leaf Spot, Bacterial Spot, Mosaic Virus, and more.
+
+<details>
+<summary>View all 38 classes</summary>
+
+1. Apple - Scab
+2. Apple - Black Rot
+3. Apple - Cedar Apple Rust
+4. Apple - Healthy
+5. Blueberry - Healthy
+6. Cherry - Powdery Mildew
+7. Cherry - Healthy
+8. Corn - Cercospora Leaf Spot
+9. Corn - Common Rust
+10. Corn - Northern Leaf Blight
+11. Corn - Healthy
+12. Grape - Black Rot
+13. Grape - Esca (Black Measles)
+14. Grape - Leaf Blight
+15. Grape - Healthy
+16. Orange - Huanglongbing
+17. Peach - Bacterial Spot
+18. Peach - Healthy
+19. Pepper - Bacterial Spot
+20. Pepper - Healthy
+21. Potato - Early Blight
+22. Potato - Late Blight
+23. Potato - Healthy
+24. Raspberry - Healthy
+25. Soybean - Healthy
+26. Squash - Powdery Mildew
+27. Strawberry - Leaf Scorch
+28. Strawberry - Healthy
+29. Tomato - Bacterial Spot
+30. Tomato - Early Blight
+31. Tomato - Late Blight
+32. Tomato - Leaf Mold
+33. Tomato - Septoria Leaf Spot
+34. Tomato - Spider Mites
+35. Tomato - Target Spot
+36. Tomato - Mosaic Virus
+37. Tomato - Yellow Leaf Curl Virus
+38. Tomato - Healthy
+
+</details>
 
 ---
 
@@ -340,10 +319,9 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ---
 
-## 📞 Contact & Support
+## 📞 Contact
 
-- **Issues:** [GitHub Issues](https://github.com/yourusername/plantdocbot/issues)
-- **Discussions:** [GitHub Discussions](https://github.com/yourusername/plantdocbot/discussions)
+For questions or support, please open an issue on GitHub.
 
 ---
 
@@ -352,7 +330,5 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 **Made with ❤️ and 🌿**
 
 ⭐ Star this repo if you find it helpful!
-
-[Report Bug](https://github.com/yourusername/plantdocbot/issues) • [Request Feature](https://github.com/yourusername/plantdocbot/issues)
 
 </div>
